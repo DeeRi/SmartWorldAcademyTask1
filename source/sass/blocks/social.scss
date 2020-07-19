@@ -1,0 +1,17 @@
+.social {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  outline: none;
+}

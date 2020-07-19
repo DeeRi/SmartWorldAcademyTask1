@@ -1,0 +1,69 @@
+.communication h2 {
+  margin: 0;
+  padding-bottom: 33px;
+  color: $heading-color;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.communication__list {
+  @include reset-list;
+}
+
+.communication__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.communication__text {
+  width: 35%;
+}
+
+.communication p {
+  margin: 0;
+  padding-bottom: 38px;
+}
+
+.communication__link {
+  text-transform: capitalize;
+  color: $contrast-color;
+}
+
+@media (max-width: $tablet-width-max) {
+  .communication {
+    padding-top: 165px;
+    padding-bottom: 165px;
+  }
+
+  .communication__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .communication__text {
+    width: 90%;
+  }
+
+  .communication__image {
+    display: none;
+  }
+}
+
+
+@media (max-width: $tablet-width-max) {
+  .communication__list {
+    flex-direction: column;
+  }
+
+  .communication__item {
+    margin-bottom: 70px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

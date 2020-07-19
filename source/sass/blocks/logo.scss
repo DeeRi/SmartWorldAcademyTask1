@@ -1,0 +1,16 @@
+.logo {
+  width: 179px;
+  height: 100px;
+  border-radius: 0 0 22px 22px;
+  background-color: $contrast-color;
+}
+
+.logo__text {
+  text-align: center;
+  color: $logo-text;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 24px;
+  display: block;
+  padding-top: 33px;
+}

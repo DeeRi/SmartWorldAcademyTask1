@@ -1,0 +1,18 @@
+.feedback__container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $background-second;
+}
+
+.feedback h2 {
+  text-transform: capitalize;
+  color: $heading-color;
+}
+
+.feedback__image {
+  width: 752px;
+  height: 608px;
+  margin-right: 127px;
+}

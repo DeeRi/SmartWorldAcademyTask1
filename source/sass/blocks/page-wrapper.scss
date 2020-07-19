@@ -1,0 +1,12 @@
+.page-wrapper {
+  background-image: url("../img/introBack@1x.jpg");
+  background-position: 60% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: $mobile-width-max) {
+  .page-wrapper {
+    background-image: none;
+  }
+}
